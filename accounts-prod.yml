@@ -1,23 +1,11 @@
-server:
-  port:8080
-spring:
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
-  datasource:
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: ''
-    driverClassName: org.h2.Driver
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-
-#  config:
-#    activate:
-#      on-profile: "default"
 build:
-  version: "3.0"
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related prod APIs "
+  contactDetails:
+    name: "Reine Aishwarya - Product Owner"
+    email: "aishwarya@eazybank.com"
+  onCallSupport:
+    - (453) 392-4829
+    - (236) 203-0384
